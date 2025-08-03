@@ -38,7 +38,7 @@ print(numbers)
 numbers_greater_than_nine = [number for number in numbers if number > 9]
 print(numbers_greater_than_nine)
 
-# TODO: (more advanced) use a list comprehension and the join string method
+# TODO: use a list comprehension and the join string method
 # the result should be: 'Harlem, Hendrix, Lovelace'
 long_name_last_names = ", ".join([name.split()[1] for name in full_names if len(name) > 11])
 print(long_name_last_names)
